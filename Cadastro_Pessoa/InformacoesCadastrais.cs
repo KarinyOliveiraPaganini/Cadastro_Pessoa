@@ -69,7 +69,7 @@ namespace Cadastro_Pessoa
 
         private void ExcluirSelecionado_Click_1(object sender, EventArgs e)
         {
-            if (DialogResult.Yes != MessageBox.Show("Confirmar exclusão do Registro?", "Responda",
+            if (DialogResult.Yes != MessageBox.Show("Confirmar exclusão da Pessoa?", "Responda",
                   MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2))
             {
                 return;
@@ -80,6 +80,9 @@ namespace Cadastro_Pessoa
                 _bdServico.ExcluirPessoa(ObterIdPessoaSelecionada());
 
                 gridPessoas.Rows.RemoveAt(gridPessoas.CurrentRow.Index);
+
+                MessageBox.Show("Pessoa excluida com sucesso!", "Sucesso",
+                  MessageBoxButtons.OK, MessageBoxIcon.None);
             }
         }
 

@@ -44,10 +44,16 @@ namespace Cadastro_Pessoa
             if (_id.HasValue)
             {
                 _bdServico.EditarPessoa(pessoa, _id.Value);
+
+                MessageBox.Show("Pessoa alterada com sucesso!", "Sucesso",
+                  MessageBoxButtons.OK, MessageBoxIcon.None);
             }
             else
             {
                 _bdServico.InserirPessoa(pessoa);
+
+                MessageBox.Show("Pessoa cadastrada com sucesso!", "Sucesso",
+                  MessageBoxButtons.OK, MessageBoxIcon.None);
             }
 
             VoltarParaTelaInformacoesCadastrais();
