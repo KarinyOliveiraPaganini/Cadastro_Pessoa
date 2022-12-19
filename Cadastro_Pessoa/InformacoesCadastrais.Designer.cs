@@ -78,6 +78,7 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.gridPessoas.DefaultCellStyle = dataGridViewCellStyle3;
             this.gridPessoas.Location = new System.Drawing.Point(12, 51);
+            this.gridPessoas.MultiSelect = false;
             this.gridPessoas.Name = "gridPessoas";
             this.gridPessoas.ReadOnly = true;
             this.gridPessoas.RowTemplate.Height = 25;
