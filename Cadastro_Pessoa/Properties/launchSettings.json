@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Cadastro_Pessoa": {
+      "commandName": "Project",
+      "sqlDebugging": false
+    }
+  }
+}
