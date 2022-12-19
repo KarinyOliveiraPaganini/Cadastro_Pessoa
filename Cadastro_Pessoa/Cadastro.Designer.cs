@@ -65,7 +65,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.label2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(27, 18);
+            this.label2.Location = new System.Drawing.Point(27, 19);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(144, 16);
             this.label2.TabIndex = 1;
@@ -128,7 +128,7 @@
             this.campoTextoNome.Location = new System.Drawing.Point(27, 137);
             this.campoTextoNome.Name = "campoTextoNome";
             this.campoTextoNome.Size = new System.Drawing.Size(208, 23);
-            this.campoTextoNome.TabIndex = 8;
+            this.campoTextoNome.TabIndex = 1;
             // 
             // BtnSalvar
             // 
@@ -137,7 +137,7 @@
             this.BtnSalvar.Location = new System.Drawing.Point(520, 231);
             this.BtnSalvar.Name = "BtnSalvar";
             this.BtnSalvar.Size = new System.Drawing.Size(75, 23);
-            this.BtnSalvar.TabIndex = 12;
+            this.BtnSalvar.TabIndex = 6;
             this.BtnSalvar.Text = "Salvar";
             this.BtnSalvar.UseVisualStyleBackColor = true;
             this.BtnSalvar.Click += new System.EventHandler(this.button_Save);
@@ -148,7 +148,7 @@
             this.campoDataNascimento.Location = new System.Drawing.Point(27, 201);
             this.campoDataNascimento.Name = "campoDataNascimento";
             this.campoDataNascimento.Size = new System.Drawing.Size(114, 23);
-            this.campoDataNascimento.TabIndex = 15;
+            this.campoDataNascimento.TabIndex = 3;
             // 
             // campoAltura
             // 
@@ -165,7 +165,7 @@
             this.campoAltura.Name = "campoAltura";
             this.campoAltura.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.campoAltura.Size = new System.Drawing.Size(63, 23);
-            this.campoAltura.TabIndex = 16;
+            this.campoAltura.TabIndex = 4;
             this.campoAltura.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // campoSituacao
@@ -175,7 +175,7 @@
             this.campoSituacao.Location = new System.Drawing.Point(257, 201);
             this.campoSituacao.Name = "campoSituacao";
             this.campoSituacao.Size = new System.Drawing.Size(131, 24);
-            this.campoSituacao.TabIndex = 17;
+            this.campoSituacao.TabIndex = 5;
             // 
             // botaoInativo
             // 
@@ -183,7 +183,7 @@
             this.botaoInativo.Location = new System.Drawing.Point(62, 3);
             this.botaoInativo.Name = "botaoInativo";
             this.botaoInativo.Size = new System.Drawing.Size(61, 19);
-            this.botaoInativo.TabIndex = 18;
+            this.botaoInativo.TabIndex = 5;
             this.botaoInativo.TabStop = true;
             this.botaoInativo.Text = "Inativo";
             this.botaoInativo.UseVisualStyleBackColor = true;
@@ -194,7 +194,7 @@
             this.botaoAtivo.Location = new System.Drawing.Point(3, 4);
             this.botaoAtivo.Name = "botaoAtivo";
             this.botaoAtivo.Size = new System.Drawing.Size(53, 19);
-            this.botaoAtivo.TabIndex = 0;
+            this.botaoAtivo.TabIndex = 5;
             this.botaoAtivo.TabStop = true;
             this.botaoAtivo.Text = "Ativo";
             this.botaoAtivo.UseVisualStyleBackColor = true;
@@ -215,7 +215,7 @@
             this.campoTextoSobrenome.Location = new System.Drawing.Point(257, 137);
             this.campoTextoSobrenome.Name = "campoTextoSobrenome";
             this.campoTextoSobrenome.Size = new System.Drawing.Size(338, 23);
-            this.campoTextoSobrenome.TabIndex = 20;
+            this.campoTextoSobrenome.TabIndex = 2;
             // 
             // botaoCancelar
             // 
@@ -224,7 +224,7 @@
             this.botaoCancelar.Location = new System.Drawing.Point(439, 231);
             this.botaoCancelar.Name = "botaoCancelar";
             this.botaoCancelar.Size = new System.Drawing.Size(75, 23);
-            this.botaoCancelar.TabIndex = 21;
+            this.botaoCancelar.TabIndex = 7;
             this.botaoCancelar.Text = "Cancelar";
             this.botaoCancelar.UseVisualStyleBackColor = true;
             this.botaoCancelar.Click += new System.EventHandler(this.BotaoCancelar_Click);
